@@ -1,0 +1,72 @@
+html {
+  padding-left: 10px;
+  border-left: 10px solid lightgray;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+main h1 {
+  font-family: larger;
+}
+
+main a {
+  display: block;
+  text-align: right;
+  color: tomato;
+}
+h1 {
+  color: tomato;
+  margin-top:0%;
+}
+h4{
+    color:gray;
+    margin-bottom:0;
+}
+
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  color: gray;
+}
+
+footer{
+    color: lightgray;
+}
+footer a {
+  color: tomato;
+}
+
+article{
+    margin-bottom: 4rem;
+}
+/*WOW... first letter style  */
+article p::first-letter{
+text-transform: capitalize;
+float: left;
+font-size: 5rem;
+padding: 5px;
+}
+
+p{
+    padding: 10px;
+}
+img {
+  width: 100%;
+}
