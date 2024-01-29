@@ -27,13 +27,12 @@ main a {
 }
 h1 {
   color: tomato;
-  margin-top:0%;
+  margin-top: 0%;
 }
-h4{
-    color:gray;
-    margin-bottom:0;
+h4 {
+  color: gray;
+  margin-bottom: 0;
 }
-
 
 ul {
   padding: 0;
@@ -46,26 +45,27 @@ header a {
   color: gray;
 }
 
-footer{
-    color: lightgray;
+footer {
+  color: lightgray;
 }
 footer a {
   color: tomato;
 }
 
-article{
-    margin-bottom: 4rem;
+article {
+  margin-bottom: 4rem;
 }
-/*WOW... first letter style  */
-article p::first-letter{
-text-transform: capitalize;
-float: left;
-font-size: 5rem;
-padding: 5px;
+/*... first letter style  */
+article p::first-letter {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  float: left;
+  font-size: 6rem;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
 }
 
-p{
-    padding: 10px;
+p {
+  padding: 10px;
 }
 img {
   width: 100%;
