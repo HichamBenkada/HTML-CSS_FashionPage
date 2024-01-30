@@ -1,6 +1,6 @@
 html {
   padding-left: 10px;
-  border-left: 10px solid lightgray;
+  border-left: 8px solid lightgray;
 }
 
 body {
@@ -16,21 +16,24 @@ footer {
   padding: 1rem 2rem;
 }
 
-main h1 {
-  font-family: larger;
+header:first-child {
+  color: tomato;
+  font-size: larger;
 }
 
 main a {
   display: block;
+  text-decoration: none;
   text-align: right;
   color: tomato;
 }
+
 h1 {
-  color: tomato;
   margin-top: 0%;
 }
+
 h4 {
-  color: gray;
+  color: lightgray;
   margin-bottom: 0;
 }
 
@@ -45,16 +48,10 @@ header a {
   color: gray;
 }
 
-footer {
-  color: lightgray;
-}
-footer a {
-  color: tomato;
+article {
+  margin-bottom: 2rem;
 }
 
-article {
-  margin-bottom: 4rem;
-}
 /*... first letter style  */
 article p::first-letter {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -67,6 +64,22 @@ article p::first-letter {
 p {
   padding: 10px;
 }
+
 img {
   width: 100%;
+}
+
+footer {
+  color: lightgray;
+}
+
+footer a {
+  color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-flow: wrap column;
+    }
 }
